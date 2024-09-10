@@ -1090,19 +1090,19 @@ video {
     background-color: rgb(96 165 250 / var(--tw-bg-opacity));
   }
 
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .sm\:px-9 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
   }
 
-  .sm\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .sm\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:pb-10 {
