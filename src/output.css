@@ -1037,8 +1037,8 @@ video {
     margin-bottom: 0px;
   }
 
-  .sm\:mb-10 {
-    margin-bottom: 2.5rem;
+  .sm\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .sm\:mb-5 {
@@ -1057,20 +1057,16 @@ video {
     margin-right: 1.25rem;
   }
 
-  .sm\:mb-14 {
-    margin-bottom: 3.5rem;
-  }
-
-  .sm\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
   .sm\:hidden {
     display: none;
   }
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:flex-col {
@@ -1085,6 +1081,10 @@ video {
     gap: 2.5rem;
   }
 
+  .sm\:rounded {
+    border-radius: 0.25rem;
+  }
+
   .sm\:bg-blue-400 {
     --tw-bg-opacity: 1;
     background-color: rgb(96 165 250 / var(--tw-bg-opacity));
@@ -1095,20 +1095,22 @@ video {
     padding-right: 2.25rem;
   }
 
+  .sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .sm\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
-  .sm\:pb-16 {
-    padding-bottom: 4rem;
-  }
-
   .sm\:pl-10 {
     padding-left: 2.5rem;
-  }
-
-  .sm\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .sm\:pt-20 {
