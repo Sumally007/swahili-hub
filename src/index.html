@@ -8,18 +8,26 @@
   </head>
   <body class="w-screen">
     <div class="w-screen">
-      <div class="bg-blue-400 flex flex-col w-full pb-72 mb-marginb">
+      <div class="bg-blue-400 flex flex-col w-full pb-72 sm:pb-16 mb-marginb sm:mb-0 sm:text-yellow-700">
         <!--nav start-->
-        <nav class="w-full flex justify-between pt-10 pl-14 pb-20 pr-14">
-          <div>
-            <img src="./img/Group 9.png" alt="logo" />
+        <nav class="w-full flex justify-between pt-10 pl-14 sm:pl-10 pb-20 sm:pb-10 pr-14 ">
+          <div class="flex justify-between items-center sm:w-full">
+            <img class="sm:bg-blue-400" src="./img/Group 9.png" alt="logo" />
+
+            <div class="md:hidden cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              
+            </div>
           </div>
-          <div class="text-white">
+          
+          <div class="text-white hidden md:block sm:text-blue-400">
             <ul class="flex flex-wrap">
-              <li class="ml-14 font-bold">Home</li>
-              <li class="ml-14">Use Cases</li>
-              <li class="ml-14">Demo</li>
-              <li class="mr-14">Datasets</li>
+              <li class="ml-14 sm:ml-0 font-bold">Home</li>
+              <li class="ml-14 sm:ml-5">Use Cases</li>
+              <li class="ml-14 sm:ml-5">Demo</li>
+              <li class="mr-14 sm:mr-5 sm:ml-5">Datasets</li>
               <li>Contact Us</li>
             </ul>
           </div>
@@ -27,8 +35,8 @@
         <!--nav end-->
         <div class="text-center text-white flex flex-col items-center">
           <!--section one start-->
-          <div>
-            <h1 class="text-5xl font-bold mb-8">Building a Swahili NLP hub</h1>
+          <div class="sm:w-full sm:text-center sm:px-9">
+            <h1 class="text-5xl sm:text-4xl font-bold mb-8 sm:mb-5">Building a Swahili NLP hub</h1>
             <p class="text-lg mb-8">
               A Swahili NLP hub for everyone - That is developers, data
               scientists and <br />
@@ -41,14 +49,14 @@
         </div>
       </div>
       <img
-        class="absolute top-top"
+        class="absolute top-top sm:hidden"
         src="./img/screen1 1.png"
         alt=""
       /><!--section one end-->
 
       <div class="flex items-center justify-center mb-28">
         <!--section two start-->
-        <div class="flex gap-12">
+        <div class="flex sm:flex-col sm:items-center gap-12 sm:pt-10">
           <div>
             <img src="./img/Capture1.PNG" alt="" />
           </div>
